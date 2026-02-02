@@ -19,4 +19,4 @@ Core utilities built on `ds_base` for common application needs.
 - `examples/ds_core/`
 
 ## Tests
-- `tests/ds_core/`
+- `libs/ds_core/tests/`

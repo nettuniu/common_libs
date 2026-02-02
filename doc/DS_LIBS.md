@@ -35,7 +35,7 @@ Allowed dependencies (examples):
 Each library has a dedicated guide in `doc/` (e.g. `doc/ds_core.md`).
 
 ## Tests and Examples
-Tests live under `tests/<lib>/`. Examples live under `examples/<lib>/`.
+Tests live under `libs/<lib>/tests/`. Examples live under `examples/<lib>/`.
 
 ## Third-Party Policy
 - No LGPL or GPL code copied.

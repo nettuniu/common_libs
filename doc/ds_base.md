@@ -18,4 +18,4 @@ Lowest layer with small, stable utilities used everywhere.
 - `examples/ds_base/`
 
 ## Tests
-- `tests/ds_base/`
+- `libs/ds_base/tests/`

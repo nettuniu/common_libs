@@ -19,4 +19,4 @@ Numerical and statistical utilities.
 - `examples/ds_math/`
 
 ## Tests
-- `tests/ds_math/`
+- `libs/ds_math/tests/`

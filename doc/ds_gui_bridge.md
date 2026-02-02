@@ -19,4 +19,4 @@ GUI-agnostic interfaces and adapters for connecting core and GUI.
 - `examples/ds_gui_bridge/`
 
 ## Tests
-- `tests/ds_gui_bridge/`
+- `libs/ds_gui_bridge/tests/`

@@ -5,6 +5,10 @@ project(common_libs LANGUAGES CXX)
 option(DS_BUILD_TESTS "Build tests" ON)
 option(DS_BUILD_EXAMPLES "Build examples" ON)
 
+if (DS_BUILD_TESTS)
+  enable_testing()
+endif()
+
 add_subdirectory(libs/ds_base)
 add_subdirectory(libs/ds_core)
 add_subdirectory(libs/ds_memory)
@@ -15,11 +19,6 @@ add_subdirectory(libs/ds_io)
 add_subdirectory(libs/ds_net)
 add_subdirectory(libs/ds_gui_bridge)
 add_subdirectory(libs/ds_app)
-
-if (DS_BUILD_TESTS)
-  enable_testing()
-  add_subdirectory(tests)
-endif()
 
 if (DS_BUILD_EXAMPLES)
   add_subdirectory(examples)

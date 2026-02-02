@@ -19,4 +19,4 @@ Input/output utilities and stream abstractions.
 - `examples/ds_io/`
 
 ## Tests
-- `tests/ds_io/`
+- `libs/ds_io/tests/`

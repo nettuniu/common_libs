@@ -18,4 +18,4 @@ Memory and buffer utilities with performance focus.
 - `examples/ds_memory/`
 
 ## Tests
-- `tests/ds_memory/`
+- `libs/ds_memory/tests/`

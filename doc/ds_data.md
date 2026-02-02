@@ -20,7 +20,7 @@ Data parsing and serialization utilities.
 - `examples/ds_data/`
 
 ## Tests
-- `tests/ds_data/`
+- `libs/ds_data/tests/`
 
 ## Third-Party
 - `third_party/nlohmann_json` (MIT)

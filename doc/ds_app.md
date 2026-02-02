@@ -19,4 +19,4 @@ Application composition utilities built on the lower layers.
 - `examples/ds_app/`
 
 ## Tests
-- `tests/ds_app/`
+- `libs/ds_app/tests/`

@@ -20,4 +20,4 @@ Networking and IPC utilities.
 - `examples/ds_net/`
 
 ## Tests
-- `tests/ds_net/`
+- `libs/ds_net/tests/`

@@ -19,4 +19,4 @@ Threading and system-level utilities.
 - `examples/ds_system/`
 
 ## Tests
-- `tests/ds_system/`
+- `libs/ds_system/tests/`
