@@ -1,0 +1,29 @@
+add_executable(ds_base_example ds_base/ds_base_example.cpp)
+target_link_libraries(ds_base_example PRIVATE ds_base)
+
+add_executable(ds_core_example ds_core/ds_core_example.cpp)
+target_link_libraries(ds_core_example PRIVATE ds_core)
+
+add_executable(ds_memory_example ds_memory/ds_memory_example.cpp)
+target_link_libraries(ds_memory_example PRIVATE ds_memory)
+
+add_executable(ds_math_example ds_math/ds_math_example.cpp)
+target_link_libraries(ds_math_example PRIVATE ds_math)
+
+add_executable(ds_data_example ds_data/ds_data_example.cpp)
+target_link_libraries(ds_data_example PRIVATE ds_data)
+
+add_executable(ds_system_example ds_system/ds_system_example.cpp)
+target_link_libraries(ds_system_example PRIVATE ds_system)
+
+add_executable(ds_io_example ds_io/ds_io_example.cpp)
+target_link_libraries(ds_io_example PRIVATE ds_io)
+
+add_executable(ds_net_example ds_net/ds_net_example.cpp)
+target_link_libraries(ds_net_example PRIVATE ds_net)
+
+add_executable(ds_gui_bridge_example ds_gui_bridge/ds_gui_bridge_example.cpp)
+target_link_libraries(ds_gui_bridge_example PRIVATE ds_gui_bridge)
+
+add_executable(ds_app_example ds_app/ds_app_example.cpp)
+target_link_libraries(ds_app_example PRIVATE ds_app)

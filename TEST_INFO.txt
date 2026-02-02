@@ -1,0 +1,49 @@
+Code Area: ds_base
+Files: libs/ds_base/include/ds_base/ds_base.h, libs/ds_base/src/ds_base.cpp
+Tests: tests/ds_base/ds_base_test.cpp
+Command: ctest -R ds_base_test
+
+Code Area: ds_core
+Files: libs/ds_core/include/ds_core/ds_core.h, libs/ds_core/src/ds_core.cpp
+Tests: tests/ds_core/ds_core_test.cpp
+Command: ctest -R ds_core_test
+
+Code Area: ds_memory
+Files: libs/ds_memory/include/ds_memory/ds_memory.h, libs/ds_memory/src/ds_memory.cpp
+Tests: tests/ds_memory/ds_memory_test.cpp
+Command: ctest -R ds_memory_test
+
+Code Area: ds_math
+Files: libs/ds_math/include/ds_math/ds_math.h, libs/ds_math/src/ds_math.cpp
+Tests: tests/ds_math/ds_math_test.cpp
+Command: ctest -R ds_math_test
+
+Code Area: ds_data
+Files: libs/ds_data/include/ds_data/ds_data.h, libs/ds_data/src/ds_data.cpp
+Tests: tests/ds_data/ds_data_test.cpp
+Command: ctest -R ds_data_test
+
+Code Area: ds_system
+Files: libs/ds_system/include/ds_system/ds_system.h, libs/ds_system/src/ds_system.cpp
+Tests: tests/ds_system/ds_system_test.cpp
+Command: ctest -R ds_system_test
+
+Code Area: ds_io
+Files: libs/ds_io/include/ds_io/ds_io.h, libs/ds_io/src/ds_io.cpp
+Tests: tests/ds_io/ds_io_test.cpp
+Command: ctest -R ds_io_test
+
+Code Area: ds_net
+Files: libs/ds_net/include/ds_net/ds_net.h, libs/ds_net/src/ds_net.cpp
+Tests: tests/ds_net/ds_net_test.cpp
+Command: ctest -R ds_net_test
+
+Code Area: ds_gui_bridge
+Files: libs/ds_gui_bridge/include/ds_gui_bridge/ds_gui_bridge.h, libs/ds_gui_bridge/src/ds_gui_bridge.cpp
+Tests: tests/ds_gui_bridge/ds_gui_bridge_test.cpp
+Command: ctest -R ds_gui_bridge_test
+
+Code Area: ds_app
+Files: libs/ds_app/include/ds_app/ds_app.h, libs/ds_app/src/ds_app.cpp
+Tests: tests/ds_app/ds_app_test.cpp
+Command: ctest -R ds_app_test
